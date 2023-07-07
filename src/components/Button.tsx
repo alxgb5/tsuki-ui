@@ -3,7 +3,7 @@ import '../styles/button.scss';
 
 export interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   text: string;
-  color: 'default' | 'primary';
+  color?: 'default' | 'primary';
 }
 
 const Button = (props: ButtonProps) => {
