@@ -19,7 +19,7 @@
   },
   "keywords": [],
   "author": "alxgb_dev",
-  "license": "ISC",
+  "license": "MIT",
   "dependencies": {
     "@types/react": "^18.2.14",
     "@types/react-dom": "^18.2.6",
