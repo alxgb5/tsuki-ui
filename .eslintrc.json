@@ -19,5 +19,11 @@
     "react": {
       "version": "detect"
     }
-  }
+  },
+  "ignorePatterns": [
+    "docs/",
+    "node_modules/",
+    "build/",
+    "dist/"
+  ]
 }
