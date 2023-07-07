@@ -1,0 +1,27 @@
+@import url('./index.scss');
+
+button {
+  border-radius: 6px;
+  min-height: 30px;
+  min-width: 100px;
+  border: none;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+
+  &.primary {
+    background-color: rgb(213, 213, 220);
+  }
+
+
+}
